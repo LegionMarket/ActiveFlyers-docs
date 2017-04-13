@@ -1,0 +1,115 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "LegionMarket"
+theme = "hugo-material-docs"
+metadataformat = "yml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+[params]
+	# General information
+	author = "LegionMarket.com"
+	description = "Active Flyers, time to expand your market"
+	copyright = "Released under the MIT license"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/LegionMarket/ActiveFlyers-docs"
+
+	version = "1.0.0"
+	logo = "../images/tpnfcLogov00.png"
+	favicon = "images/tpnfcLogov00.png"
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "blue"
+    	accent  = "teal"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = ""
+	github  = "LegionMarket"
+	email   = "support@legionmarket.com"
+
+
+[[menu.main]]
+	name   = "LegionMarket Documentation"
+	url    = "default"
+	weight = 0
+[[menu.main]]
+	name   = "Installation"
+	url    = "installation/"
+	weight = 10
+[[menu.main]]
+	name   = "Getting Started"
+	url    = "getting-started/"
+	weight = 15
+[[menu.main]]
+	name   = "Upgrading"
+	url    = "upgrading/"
+	weight = 20
+[[menu.main]]
+	name   = "Configuration"
+	url    = "configuration/"
+	weight = 25
+[[menu.main]]
+	name   = "Contenttypes"
+	url    = "contenttypes/"
+	weight = 30
+[[menu.main]]
+	name   = "Field Types"
+	url    = "fields/"
+	weight = 35
+[[menu.main]]
+	name   = "Templating"
+	url    = "templating/"
+	weight = 40
+[[menu.main]]
+	name   = "Extensions"
+	url    = "extensions/"
+	weight = 45
+[[menu.main]]
+	name   = "Marketplace Extensions"
+	url    = "publishing-marketplace/"
+	weight = 50
+[[menu.main]]
+	name   = "How to ?"
+	url    = "howto/"
+	weight = 55
+[[menu.main]]
+	name   = "Internals"
+	url    = "internals/"
+	weight = 60
+[[menu.main]]
+	name   = "Manual"
+	url    = "manual/"
+	weight = 65
+[[menu.main]]
+	name   = "Core Development"
+	url    = "core-development/"
+	weight = 70
+[[menu.main]]
+	name   = "Other"
+	url    = "other/"
+	weight = 80
+
+
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true

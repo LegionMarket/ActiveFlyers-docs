@@ -1,0 +1,6 @@
+192.168.1.16:81 {
+    tls off
+    root public/
+    ext .html .htm
+    hugo
+}
